@@ -61,3 +61,5 @@ export function FizziLogo(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+export default FizziLogo;

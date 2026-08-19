@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 type SamplePackModalProps = {
   isOpen: boolean;
@@ -34,6 +34,20 @@ export default function SamplePackModal({ isOpen, onClose }: SamplePackModalProp
 
   const [paymentMethod, setPaymentMethod] = useState<"card" | "gpay" | "express">("card");
   const [isOrdered, setIsOrdered] = useState(false);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    };
+    if (isOpen) {
+      window.addEventListener("keydown", handleKeyDown);
+    }
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -80,10 +94,16 @@ export default function SamplePackModal({ isOpen, onClose }: SamplePackModalProp
       />
 
       {/* Floating Animated Modal Box */}
-      <div className="relative z-10 my-auto w-full max-w-lg overflow-hidden rounded-3xl border border-white/40 bg-gradient-to-b from-white/95 via-amber-50/95 to-slate-50 p-5 sm:p-7 shadow-2xl backdrop-blur-xl transition-all duration-300 animate-in zoom-in-95 slide-in-from-bottom-6">
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label="Sample Pack Checkout Drawer"
+        className="relative z-10 my-auto w-full max-w-lg overflow-hidden rounded-3xl border border-white/40 bg-gradient-to-b from-white/95 via-amber-50/95 to-slate-50 p-5 sm:p-7 shadow-2xl backdrop-blur-xl transition-all duration-300 animate-in zoom-in-95 slide-in-from-bottom-6"
+      >
         {/* Close Button */}
         <button
           onClick={onClose}
+          aria-label="Close modal"
           className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-slate-200/80 text-slate-600 transition-colors hover:bg-orange-500 hover:text-white"
         >
           ✕

@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
@@ -30,19 +31,15 @@ export function SodaCan({
   ...props
 }: SodaCanProps) {
   const { nodes } = useGLTF("/Soda-can.gltf");
-
   const labels = useTexture(flavorTextures);
-  
-  // Fixes upside down labels
-  labels.strawberryLemonade.flipY = false;
-  labels.blackCherry.flipY = false;
-  labels.watermelon.flipY = false;
-  labels.grape.flipY = false;
-  labels.lemonLime.flipY = false;
 
-  labels[flavor].minFilter = THREE.LinearFilter;
-  labels[flavor].magFilter = THREE.LinearFilter;
-  
+  useMemo(() => {
+    Object.values(labels).forEach((tex) => {
+      tex.flipY = false;
+      tex.minFilter = THREE.LinearFilter;
+      tex.magFilter = THREE.LinearFilter;
+    });
+  }, [labels]);
 
   const label = labels[flavor];
 

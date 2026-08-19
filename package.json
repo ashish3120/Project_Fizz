@@ -4,10 +4,13 @@
   "private": true,
   "license": "Apache-2.0",
   "author": "Prismic <contact@prismic.io> (https://prismic.io)",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint .",
     "slicemachine": "start-slicemachine",
     "format": "prettier --write ."
   },

@@ -32,7 +32,7 @@ const AlternatingText = ({ slice }: AlternatingTextProps): JSX.Element => {
             <Scene />
           </View>
 
-          {slice.primary.text_group.map((item, index) => (
+          {slice.primary.text_group.map((item: any, index: number) => (
             <div
               key={asText(item.heading)}
               className="alternating-section grid h-screen place-items-center gap-x-12 md:grid-cols-2"
