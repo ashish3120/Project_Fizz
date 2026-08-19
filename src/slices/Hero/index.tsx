@@ -36,9 +36,6 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
 
   useGSAP(
     () => {
-      // if we are on desktop and not ready, then don't load anything
-      if (!ready && isDesktop) return;
-
       const introTL = gsap.timeline();
 
       introTL
@@ -110,7 +107,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="hero opacity-0"
+      className="hero"
     >
       {isDesktop && (
         <View className="hero-scene pointer-events-none sticky top-0 z-50 -mt-[100vh] hidden h-screen w-screen md:block">

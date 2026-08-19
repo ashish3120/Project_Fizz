@@ -11,4 +11,10 @@
 
 :root {
   --font-alpino: 'Alpino', sans-serif;
+}
+
+body {
+  background-color: #FDE047;
+  color: #0c4a6e;
+  min-height: 100vh;
 }

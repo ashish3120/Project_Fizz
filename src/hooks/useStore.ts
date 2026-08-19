@@ -6,6 +6,6 @@ interface State {
 }
 
 export const useStore = create<State>((set) => ({
-    ready: false,
+    ready: true,
     isReady: () => set({ready: true}),
 }))
