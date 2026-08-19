@@ -1,0 +1,233 @@
+[
+  {
+    "id": "ZwXHmRAAACIAp3D9",
+    "uid": "home",
+    "url": null,
+    "type": "page",
+    "href": "https://fizzipop.cdn.prismic.io/api/v2/documents/search?ref=Zyw9txIAACkAlgDM&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ZwXHmRAAACIAp3D9%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2024-10-09T12:27:46+0000",
+    "last_publication_date": "2024-11-07T04:10:31+0000",
+    "slugs": [
+      "fizzi---soda-for-gutsy-people"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Fizzi - Soda for Gutsy People",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "slices": [
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "heading": [
+              {
+                "type": "heading1",
+                "text": "Live Gutsy",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "subheading": [
+              {
+                "type": "paragraph",
+                "text": "Soda Perfected",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "body": [
+              {
+                "type": "paragraph",
+                "text": "3-5g sugar, 9g fiber, 5 delicious flavors",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "button_text": "Shop Now",
+            "button_link": {
+              "link_type": "Any",
+              "key": "3964490e-14e2-44c7-ad42-13584a918a19",
+              "text": "https://www.linkedin.com/in/bhavansh-sthapak/"
+            },
+            "cans_image": {
+              "dimensions": {
+                "width": 1603,
+                "height": 1791
+              },
+              "alt": "all of the fizzi flavors",
+              "copyright": null,
+              "url": "https://images.prismic.io/fizzipop/ZwbrLYF3NbkBXH1U_all-cans-bunched.png?auto=format,compress",
+              "id": "ZwbrLYF3NbkBXH1U",
+              "edit": {
+                "x": 0,
+                "y": 0,
+                "zoom": 1,
+                "background": "transparent"
+              }
+            },
+            "second_heading": [
+              {
+                "type": "heading2",
+                "text": "TRY ALL FIVE FLAVORS",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "second_body": [
+              {
+                "type": "paragraph",
+                "text": "Our soda is made with real fruit juice and a touch of cane sugar. We never use artificial sweeteners or high fructose corn syrup. Try all five flavors and find your favorite!",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "id": "hero$95a45359-8ae9-48ea-8dcf-0a2519d989c5",
+          "slice_type": "hero",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "sentence": "Dive into Better Health",
+            "flavor": "blackCherry"
+          },
+          "id": "sky_dive$900eaeb8-b1ab-447f-984f-c4e3888a156f",
+          "slice_type": "sky_dive",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "heading": [
+              {
+                "type": "heading2",
+                "text": "Choose Your Flavor",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "price_copy": [
+              {
+                "type": "paragraph",
+                "text": "12 cans - $35.99",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "id": "carousel$9a32549c-37ca-4524-83c9-f39f3d6f092f",
+          "slice_type": "carousel",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "text_group": [
+              {
+                "heading": [
+                  {
+                    "type": "heading2",
+                    "text": "Gut-Friendly Goodness",
+                    "spans": [],
+                    "direction": "ltr"
+                  }
+                ],
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Our soda is packed with prebiotics and 1 billion probiotics, giving your gut the love it deserves. Say goodbye to bloating and hello to a happy, healthy digestive system with every sip.",
+                    "spans": [],
+                    "direction": "ltr"
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "type": "heading2",
+                    "text": "Light Calories, Big Flavor",
+                    "spans": [],
+                    "direction": "ltr"
+                  }
+                ],
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Indulge in bold, refreshing taste without the guilt. At just 20 calories per can, you can enjoy all the flavor you crave with none of the compromise.",
+                    "spans": [],
+                    "direction": "ltr"
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "type": "heading2",
+                    "text": "Naturally Refreshing",
+                    "spans": [],
+                    "direction": "ltr"
+                  }
+                ],
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Made with only the best natural ingredients, our soda is free from artificial sweeteners and flavors. It’s a crisp, clean taste that feels as good as it tastes, giving you a boost of real, natural refreshment.",
+                    "spans": [],
+                    "direction": "ltr"
+                  }
+                ]
+              }
+            ]
+          },
+          "id": "alternating_text$38ee8883-26a2-4cfc-a2cb-017e9adcf7e4",
+          "slice_type": "alternating_text",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {},
+          "id": "big_text$9bae840d-4dc1-4fb1-b374-59b6988455ba",
+          "slice_type": "big_text",
+          "slice_label": null
+        }
+      ],
+      "meta_title": "Fizzi - Soda for Gutsy People",
+      "meta_description": "Discover the refreshing taste of Fizzi, focused on gut health, featuring low-calorie, big-flavor drinks made with natural ingredients",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fizzipop/ZwbrK4F3NbkBXH1T_OGImage.png?auto=format,compress&rect=0,0,1200,630&w=2400&h=1260",
+        "id": "ZwbrK4F3NbkBXH1T",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      }
+    }
+  }
+]
