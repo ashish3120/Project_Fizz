@@ -1,0 +1,14 @@
+import AlternatingText from "./AlternatingText";
+import BigText from "./BigText";
+import Carousel from "./Carousel";
+import Hero from "./Hero";
+import SkyDive from "./SkyDive";
+
+export const components = {
+  alternating_text: AlternatingText,
+  big_text: BigText,
+  carousel: Carousel,
+  hero: Hero,
+  sky_dive: SkyDive,
+};
+
