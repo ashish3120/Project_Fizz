@@ -1,4 +1,4 @@
-import { View, Loader } from "@react-three/drei";
+import { View } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 import { Perf } from "r3f-perf";
@@ -9,7 +9,6 @@ type Props = {};
 
 export default function ViewCanvas({}: Props) {
   return (
-    <>
     <Canvas
       style={{
         position: "fixed",
@@ -41,7 +40,5 @@ export default function ViewCanvas({}: Props) {
       <ambientLight intensity={2} />
       <spotLight intensity={3} position={[1, 1, 1]} />
     </Canvas>
-    <Loader/>
-    </>
   );
 }
